@@ -7,3 +7,5 @@ It should look like this:
 Sam Harris => S.H
 
 Patrick Feeney => P.F
+
+https://www.codewars.com/users/kgamer007/completed_solutions 
