@@ -1,3 +1,5 @@
 function toCamelCase(str){
-  return str.replace(/(-\q|_\w)/g, (changeInto) => changeInto.toUpperCase()).replace(/-|_/g, '');
-  }
+  return str.replace(/(?:-|_)([a-z])/gi, (changeInto, characterAfterDashOrUnderscore) => {
+    return characterAfterDashOrUnderscore.toUpperCase();
+  });
+}
